@@ -1,0 +1,77 @@
+/* 1. Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Body & Typography */
+  body {
+    font-family: 'Inter', sans-serif; /* or your preferred font */
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* 3. Navigation */
+  nav {
+    padding: 1rem;
+    background-color: #f5f5f5; /* or your accent color or slightly off-white */
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  :root {
+    --accent: #7fff00; /* for instance, neon green */
+  }
+  nav a:hover {
+    background-color: var(--accent);
+    color: #000;
+  }
+  
+  /* 4. Hero Section */
+  .hero {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* 5. Footer */
+  footer {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  /* 6. Additional Utilities */
+  section {
+    padding: 2rem 1rem;
+  }
+
+  .dark-mode {
+    background-color: #111;
+    color: #fafafa;
+  }
+  
+  .dark-mode nav,
+  .dark-mode footer {
+    background-color: #222;
+  }
